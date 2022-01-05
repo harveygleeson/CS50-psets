@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+        crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+
+                let butt = document.getElementById('alertbutton');
+                let a = document.getElementById('alert');
+
+                butt.addEventListener('click', function() {
+
+                    if (a.style.display === "none") {
+                        a.style.display = "block";
+                    } else {
+                        a.style.display = "none";
+                    }
+                })
+            });
+        </script>
+        <title>My First Webpage</title>
+
+    </head>
+    <body>
+
+        <div class='jumbotron greeting'>
+            <h1 class='display-3' >Hello World!</h1>
+            <p class='lead lighterfont' style='font-weight:lighter;'>Welcome to my webpage.</p>
+            <hr>
+        </div>
+
+        <div class='sidebar' style='padding-bottom:0px;'>
+            <div class='row'>
+                <div class='col-sm-3' style='background-color:PaleTurquoise;'>
+                    <h4 class='display-4 lighterfont' style='font-size:30px;padding-top:10px;'>
+                    About Me</h4>
+                    <hr>
+                    <p>My name is Harvey Gleeson and this is my first ever webpage!
+                    I have designed the webpage as an assignment for
+                    CS50x. The languages I have used are: HTML, CSS and JavaScript.
+                    Below are links to some other sample pages
+                    that I worked on,
+                    with different styles and content,
+                    with the aim to practice and improve on the aforementioned languages.
+                    I hope you enjoy the content!
+                    </p>
+                    <img src='https://lh3.googleusercontent.com/wZk7x_7kS6V-xdEA4SgcdOqlNSudojpXfHcfJDBF1O3dQ7QwjIP6IJ2VceDGqfh-sGKwwBfM-eFZY8tgUl9PMO39mza31hx7XhRXwkeJYF68MZ-9rkyHoPv3HLX-MWOFcTCEeXLwljbVIyrcYFpiZ8ugtUvp_bdxmGimViSK7D_KBnLKCRn732vbXCoo0GHf7kKw0mO_XwOrgJ45hznukIOJySO4rpvOptfDATzNEfn0TTHzji6KbtB5bTzeOsCww-yFBgoj7xd_fsnxS3atw38qsWBUybswMz-YYKx0nzylDIWoLJ2FlHhVlI7HVijxJ7B28tmM6Fvum8falxuIaUcfuDX1304Kk6Ur753Kn7S7iTM5zilqQlHXX4tFT38VVwPY65sVFUngZTwJRC_RIYsaIJHCk8V29jw9jRZJbKVSIBZF--4AXjBVmn4NmcAWGn3HphmuHsd7MI9hl2EnfX_DmkAANCIzrgqYV_QxBU0EX8sGwM6H0ikirJmNR2LG2TCj2u5gsZ3ADubKv7_eyFbLo9cHFDSH3-1iLkXoPpGwrld3a7k1rjNqPAgBsA3NkZIlNiGO4x0MZXYU8r5HK_j2xWCZGWONfwy7zHptJsg4uesBlG9PYTTxJFzIkHGU_VBnbBb680cRDd8S-med2mjZ8iCsoTGqDM0WbrF2TtwQU5pfRkGp--3_BIBDJFvrs_6oRaBQVr95JHw6pqqK9fhc=w1232-h822-no?authuser=0'
+                    width='100%' alt='me'>
+                    <hr>
+                    <div class='links'>
+                        <a href='Parallax.html' title='THIS IS A TOOLTIP'>
+                        Parallax</a>
+                        <p></p>
+                        <a href='Search.html' title='tough time never last'>
+                        A Fake Search Engine</a>
+                        <p></p>
+                        <a href='Bootstrap_Practice.html' title='only tough people last'>
+                        Some Bootstrap Practice</a>
+                    </div>
+                </div>
+
+                <div class='col-sm-9' style='padding-right:0px;'>
+                    <h4 class='display-4 normal' style='font-size:45px;padding-top:10px;'>
+                    Image Gallery</h4>
+
+                    <p>A collection of some fine photos.</p>
+                    <p>Click the image to see it in full screen!</p>
+                    <hr>
+
+                    <div class='container1'>
+                        <a target='_blank' href='https://lh3.googleusercontent.com/pLu4g25Yu61b3_Q9xtt7CMDsmErzMI_J-8hbZcm3_UXvCFGgrd9uECNbhuGvlTxYkDv4TTV7JBbi__2YBAdtpGZnrrtKwP3PiGciKOXC7Llcw19qbgfrRHhLkqDhRz5a8UYGLW9VsWakW6infM2PnQw4niT05TJZ5VVo-xFuM2zeJDBNn3Pgo1yUGQeY90gWf-28Kd-KRWYnmLnms4FAiEaciDL-XCDE2fMwKkdgGMXRa2WVAWZHYEnY_5gUxpuMr74kvR1f4ezqJZHndxML5VvGKfxK6TYt0klGfWCFY-1lLHLleeHLEgJ_kQY6-GQNUAbhngbg5ES5JCnucN0PEZgHI-00-QV_XZ2QeJjpV-QJ-iSeEBtZBmztJMqv3507VsWt4OeLKts8JJa6dhOROPdL61vWh2FUy20Iq6LPaT3CRm2KgxM6XtOh63WQPLcTIX4aSyHWQJB07rUPw20u-CuPe9L35PYywp6u5FfKu14aJ0IjuSagEuDoLvuo-CmFtZB0hp_z5Us6SwHidDrTkgRWsEqga4Td1wkeSJeHOJ6rh_XYeZD3gf3eEYvQhFgAzVK4mFVZlHzDtTcw4SwL2AUHiBQy29dTw4zNIsAKb1zUBf6sTVp7zxlqq_R2yzm1wc03HNWNauKuP7ut0MU_Ag5yNBQK_Lkh7-IXR2ZsiLOko-kaxsN5Qt5mUBAR_9yICTZ-7Dv5WnZLwWgJO-Rn27iK=w1440-h775-no?authuser=0'
+                        >
+                            <img src='https://lh3.googleusercontent.com/pLu4g25Yu61b3_Q9xtt7CMDsmErzMI_J-8hbZcm3_UXvCFGgrd9uECNbhuGvlTxYkDv4TTV7JBbi__2YBAdtpGZnrrtKwP3PiGciKOXC7Llcw19qbgfrRHhLkqDhRz5a8UYGLW9VsWakW6infM2PnQw4niT05TJZ5VVo-xFuM2zeJDBNn3Pgo1yUGQeY90gWf-28Kd-KRWYnmLnms4FAiEaciDL-XCDE2fMwKkdgGMXRa2WVAWZHYEnY_5gUxpuMr74kvR1f4ezqJZHndxML5VvGKfxK6TYt0klGfWCFY-1lLHLleeHLEgJ_kQY6-GQNUAbhngbg5ES5JCnucN0PEZgHI-00-QV_XZ2QeJjpV-QJ-iSeEBtZBmztJMqv3507VsWt4OeLKts8JJa6dhOROPdL61vWh2FUy20Iq6LPaT3CRm2KgxM6XtOh63WQPLcTIX4aSyHWQJB07rUPw20u-CuPe9L35PYywp6u5FfKu14aJ0IjuSagEuDoLvuo-CmFtZB0hp_z5Us6SwHidDrTkgRWsEqga4Td1wkeSJeHOJ6rh_XYeZD3gf3eEYvQhFgAzVK4mFVZlHzDtTcw4SwL2AUHiBQy29dTw4zNIsAKb1zUBf6sTVp7zxlqq_R2yzm1wc03HNWNauKuP7ut0MU_Ag5yNBQK_Lkh7-IXR2ZsiLOko-kaxsN5Qt5mUBAR_9yICTZ-7Dv5WnZLwWgJO-Rn27iK=w1440-h775-no?authuser=0'
+                            alt='Wall'>
+                        </a>
+                        <a target='_blank' href='https://lh3.googleusercontent.com/gtvTmXAXdm-CcNrXe0JP-ZNSg5AP2ijIQRbZ8wTPwtbFGEBffFCkv3F02H1fBISho6_-ei1xBfFUlR5rkL611z4U36XfYFepYx-Gj15cjiWH-wdqWMqgNlEthddyv8mMXqKURga2JiK7bXt9ih6P12ig6yaDqEc2nSFnqwxCP7crySv5oZmNpaK7BOxZQB2k0sk4EKjh4rsjI4wq5ZSGExI36ZXGPTXuwfcbIDAUGaZDnD5qsKKdlnfD-aOF5TUgbMf44yBpfvVtZSPKJQFBXrHx5BNMO8NZrPnnif2h8Eloo4v2vsdgYdBGUz657fi1clxT2xUXfzYMyCcMjTFwonQ0yLqGOOYCdRBnAjjwpZMolP9M9ji4J6-yDlmubpmCI28pRCEt1oKxFTgcYHSuj2u0xbWXz58o0xHkBX9MK1eBRlzhl01RPR7NVrnkp_fGPXIapueRZGdlzYXL1M1lxTqrZjZ4-9HXJykvbZt8e-xPcIh9k7_ZhuLGWY3RSZ8Jj5QaoiDYjVtBaVkfIa5e_5Frg49TC5ulzIxJfvK77IHgjmQpnJ1gQ9Pc5BNEgfWyM93UW_fvwXfwKPafeJ1Pu-MJKEhPtMk4n9Rjk2i5Jlevgjw5qg6yJS7VapWtUPMRvLEwlV8jchD2UeSx3pByHvEjavYHpXrsEnzo1Os44gfIxsDQNmQAL8QYsj4LIP6nSymOYzHDvsl2Jjf6Q_eludC-=w1095-h821-no?authuser=0'
+                        >
+                            <img src='https://lh3.googleusercontent.com/gtvTmXAXdm-CcNrXe0JP-ZNSg5AP2ijIQRbZ8wTPwtbFGEBffFCkv3F02H1fBISho6_-ei1xBfFUlR5rkL611z4U36XfYFepYx-Gj15cjiWH-wdqWMqgNlEthddyv8mMXqKURga2JiK7bXt9ih6P12ig6yaDqEc2nSFnqwxCP7crySv5oZmNpaK7BOxZQB2k0sk4EKjh4rsjI4wq5ZSGExI36ZXGPTXuwfcbIDAUGaZDnD5qsKKdlnfD-aOF5TUgbMf44yBpfvVtZSPKJQFBXrHx5BNMO8NZrPnnif2h8Eloo4v2vsdgYdBGUz657fi1clxT2xUXfzYMyCcMjTFwonQ0yLqGOOYCdRBnAjjwpZMolP9M9ji4J6-yDlmubpmCI28pRCEt1oKxFTgcYHSuj2u0xbWXz58o0xHkBX9MK1eBRlzhl01RPR7NVrnkp_fGPXIapueRZGdlzYXL1M1lxTqrZjZ4-9HXJykvbZt8e-xPcIh9k7_ZhuLGWY3RSZ8Jj5QaoiDYjVtBaVkfIa5e_5Frg49TC5ulzIxJfvK77IHgjmQpnJ1gQ9Pc5BNEgfWyM93UW_fvwXfwKPafeJ1Pu-MJKEhPtMk4n9Rjk2i5Jlevgjw5qg6yJS7VapWtUPMRvLEwlV8jchD2UeSx3pByHvEjavYHpXrsEnzo1Os44gfIxsDQNmQAL8QYsj4LIP6nSymOYzHDvsl2Jjf6Q_eludC-=w1095-h821-no?authuser=0'
+                            alt='Kayak'>
+                        </a>
+                        <a target='_blank' href='https://lh3.googleusercontent.com/TGwIYTAoM2gd4eH4xC3XzPEMgbUURn9DEopBjLOk43N6olY1xvdcHqT5T_WUEQh15xL5OVeAoo_VUjIIUDQGLRn89mO1zhX9ai1PAeDAAVpGxfCqfk2qmRO_xn7mqAtUu7hsQ3O8woBRa8aIH5tOueDI1peeuamuo6bXUC9pUV3dg6T4p86gB0C-NEYixcgTe15nJVg2K27mfr8ScbE-oEsNbVFsv8efRNWRXcd_bZ_O-LhrQmEvGMhxtOwavPU1yRndM6Opw6aZDeG6qYrYGMkVV9ot7h59S8EKkXZeDzJ-8JxDi8LvL7iiCISbfPD3l_zqXVH_z2dNw856Ijs3lFmGVz3jgNaifYqg2WIQGr_tew_QppRCRUrzJP8bbJm6H1ZHCg-5WGVPR2oxQVL7KoLqI18PYzEsBiANdfXFEzzA62HQtOhRpUaWs1YYzgUmo-KlX78kiKCjJ48Oo9T9l60K70j-sIGqBgaW13MC9_HUtlZdyglvJBWH3Z_7UQMUeDbely9VrCiwnYqUAh9EzzqVqld4RdxyfJXFXstSgr0HwCvo_nKKJeHm1Fjlwn0MOstf0w1jKqfcvB5iAsH10R6AlCQlhvtWsoHfkLbbwNLeQZacnp4mcFIM0YwsANKywSqoOGSgGdnPwNFGOcetkwmqS0ElXVS2sWg_dXE3xFuzkWF5E_eCAv6EWKd4WiyyoxbFBDNwPGolChdNvnSwMF3B=w1024-h768-no?authuser=0'
+                        >
+                            <img src='https://lh3.googleusercontent.com/TGwIYTAoM2gd4eH4xC3XzPEMgbUURn9DEopBjLOk43N6olY1xvdcHqT5T_WUEQh15xL5OVeAoo_VUjIIUDQGLRn89mO1zhX9ai1PAeDAAVpGxfCqfk2qmRO_xn7mqAtUu7hsQ3O8woBRa8aIH5tOueDI1peeuamuo6bXUC9pUV3dg6T4p86gB0C-NEYixcgTe15nJVg2K27mfr8ScbE-oEsNbVFsv8efRNWRXcd_bZ_O-LhrQmEvGMhxtOwavPU1yRndM6Opw6aZDeG6qYrYGMkVV9ot7h59S8EKkXZeDzJ-8JxDi8LvL7iiCISbfPD3l_zqXVH_z2dNw856Ijs3lFmGVz3jgNaifYqg2WIQGr_tew_QppRCRUrzJP8bbJm6H1ZHCg-5WGVPR2oxQVL7KoLqI18PYzEsBiANdfXFEzzA62HQtOhRpUaWs1YYzgUmo-KlX78kiKCjJ48Oo9T9l60K70j-sIGqBgaW13MC9_HUtlZdyglvJBWH3Z_7UQMUeDbely9VrCiwnYqUAh9EzzqVqld4RdxyfJXFXstSgr0HwCvo_nKKJeHm1Fjlwn0MOstf0w1jKqfcvB5iAsH10R6AlCQlhvtWsoHfkLbbwNLeQZacnp4mcFIM0YwsANKywSqoOGSgGdnPwNFGOcetkwmqS0ElXVS2sWg_dXE3xFuzkWF5E_eCAv6EWKd4WiyyoxbFBDNwPGolChdNvnSwMF3B=w1024-h768-no?authuser=0'
+                            alt='Children'>
+                        </a>
+                        <a target='_blank' href='https://lh3.googleusercontent.com/_j-Se3jjCwPSBBkroHNtSo65B0-pfVvbSX9wa7ycpEPyklXtpjyc9DWQVDXTGdJIDckAsxNtBo7rkD8EWx9cNpiOAH_JJZKr4XK_HQhbf0-fqGI9kNzBhrgGlfUAq6b_0QF8s3D4pVmKDjkoxratZ6BFXOnqpnKfvX7CxZGA33UoG6X2jNON7W3io21yj6Xwr4GKIf3PwhschnVCOncOes_5m6MCB4pohwbbM1VdUPic1RaH-uNqLH7vxbElBQvx9JsUhZwO7BC2vaFz8cE8UuRqAuHdcVjcmeqYLjiSNDNa0ByDlij5tdQSP9fC3i_LJEt9yqXoWoHE6xRQRNblgXI8OnRau6HWWGrjIHHe9Ff_FlpmFN0QMxOpBxfqQMultxTajEviFR7A9ypuX32NZ0N5klq-le_qZYMHDiFewaQBDW_y8kDxTe6MIvmlkCbYQz9L-cnBCqN76IEWmydO0dMRqBEJikS_5ulI2BPCdL3BHZHD1hYqaYhWVLOnd9CccU3F4QC2HvzTPrWRnJWZG4Irj1nGWtRA_KVgE_sqzJNwpAnC96tQBryGfAc4TOF1QNkbbzSgM-zP2KwSlcloCIo6mg7DTvx2vSFN60Jsh2NP0sKUbYXil7ZHsBhUEr5pyw4n-g16sWW2vJ3ubo_9Uo5ZTopjI8Qoa0rVw-9qXs24uNdrofJ9_-xa0PaX18BPFf0wLOCYlD6gPw6d9HtFdR3k=w1095-h821-no?authuser=0'
+                        >
+                            <img src='https://lh3.googleusercontent.com/_j-Se3jjCwPSBBkroHNtSo65B0-pfVvbSX9wa7ycpEPyklXtpjyc9DWQVDXTGdJIDckAsxNtBo7rkD8EWx9cNpiOAH_JJZKr4XK_HQhbf0-fqGI9kNzBhrgGlfUAq6b_0QF8s3D4pVmKDjkoxratZ6BFXOnqpnKfvX7CxZGA33UoG6X2jNON7W3io21yj6Xwr4GKIf3PwhschnVCOncOes_5m6MCB4pohwbbM1VdUPic1RaH-uNqLH7vxbElBQvx9JsUhZwO7BC2vaFz8cE8UuRqAuHdcVjcmeqYLjiSNDNa0ByDlij5tdQSP9fC3i_LJEt9yqXoWoHE6xRQRNblgXI8OnRau6HWWGrjIHHe9Ff_FlpmFN0QMxOpBxfqQMultxTajEviFR7A9ypuX32NZ0N5klq-le_qZYMHDiFewaQBDW_y8kDxTe6MIvmlkCbYQz9L-cnBCqN76IEWmydO0dMRqBEJikS_5ulI2BPCdL3BHZHD1hYqaYhWVLOnd9CccU3F4QC2HvzTPrWRnJWZG4Irj1nGWtRA_KVgE_sqzJNwpAnC96tQBryGfAc4TOF1QNkbbzSgM-zP2KwSlcloCIo6mg7DTvx2vSFN60Jsh2NP0sKUbYXil7ZHsBhUEr5pyw4n-g16sWW2vJ3ubo_9Uo5ZTopjI8Qoa0rVw-9qXs24uNdrofJ9_-xa0PaX18BPFf0wLOCYlD6gPw6d9HtFdR3k=w1095-h821-no?authuser=0'
+                            alt='Another Kayak'>
+                        </a>
+                        <a target='_blank' href='https://lh3.googleusercontent.com/wFxuJkNGbIhdP9QbpqayjhR3SyiXDBo0u-PFxbldR6wvVXnENNSunITke0QJ91cjlxu2GT6q9lIDzYGm-P3DFoWrl9wQbYHtdrG-ZvOukzDdQMTMvcXKVcvWvYH0zIp05XHOhvVgyMEz6sJYuOJmG02emX6c7lpd70h_4SK0wA0dAKxg7vpdpn7MdD6f_nl9fNq-6Um_EOUrR8og36SjgJVMDVBjN5QMAGuhZSzjlXb2BUHjPYH3cx1nBzJMzQ3TfH6m6hIVIINMqzD6BLUp7-8XjDZl7_zKZhgVs_kq2tzlQ5FzSzajD-9iWibg7qTsXnI1ew83NzuhH4vcQpxVcljFKkxx5NVg7xQegEzK4RbmRkDBNfD7wXkeOQzPsV4IvIsnVHusxW6oYhcMl6rQypjPdb8KibpWXgwdTt384uf1DCkNcimnOMm6piz6rYSySiB_QaN7pnCBpZF85-HcaNh5E-g3JW1ZPYZF-lHpVx5tBWtUvuLs1DVsthZwDVy8rdtyaYr5vk9dO1gNVmEP1Vcljfq_P8Kzzo4af4f38zv1rMxbZPCYKODrf3-02XfAuLrKjaJc3C-XpxJqxpwoah1_cfuqyPNEtzPj3zSFru9nMkW1adJ4EzgLNonl6p4VY4KbLLE-uRBfECCcljXjSVEdbEQmPTbHqSV6ZjHHgunCt4WJ_MWgQn1uLBImxxfSxFWzBewAMBAPVAAfMCu8e4K5=w1440-h775-no?authuser=0'
+                        >
+                            <img src='https://lh3.googleusercontent.com/wFxuJkNGbIhdP9QbpqayjhR3SyiXDBo0u-PFxbldR6wvVXnENNSunITke0QJ91cjlxu2GT6q9lIDzYGm-P3DFoWrl9wQbYHtdrG-ZvOukzDdQMTMvcXKVcvWvYH0zIp05XHOhvVgyMEz6sJYuOJmG02emX6c7lpd70h_4SK0wA0dAKxg7vpdpn7MdD6f_nl9fNq-6Um_EOUrR8og36SjgJVMDVBjN5QMAGuhZSzjlXb2BUHjPYH3cx1nBzJMzQ3TfH6m6hIVIINMqzD6BLUp7-8XjDZl7_zKZhgVs_kq2tzlQ5FzSzajD-9iWibg7qTsXnI1ew83NzuhH4vcQpxVcljFKkxx5NVg7xQegEzK4RbmRkDBNfD7wXkeOQzPsV4IvIsnVHusxW6oYhcMl6rQypjPdb8KibpWXgwdTt384uf1DCkNcimnOMm6piz6rYSySiB_QaN7pnCBpZF85-HcaNh5E-g3JW1ZPYZF-lHpVx5tBWtUvuLs1DVsthZwDVy8rdtyaYr5vk9dO1gNVmEP1Vcljfq_P8Kzzo4af4f38zv1rMxbZPCYKODrf3-02XfAuLrKjaJc3C-XpxJqxpwoah1_cfuqyPNEtzPj3zSFru9nMkW1adJ4EzgLNonl6p4VY4KbLLE-uRBfECCcljXjSVEdbEQmPTbHqSV6ZjHHgunCt4WJ_MWgQn1uLBImxxfSxFWzBewAMBAPVAAfMCu8e4K5=w1440-h775-no?authuser=0'
+                            alt='Darts'>
+                        </a>
+                        <a href='https://lh3.googleusercontent.com/NqrD1WNqDlveArT42cDo25xE1Csgh4M46v8y68ZJDf9MCmGPQJ0UcctWKknw027Z9Ow9kdZylH4fdSKYJPONU63f6hSLTW6pgulaDPeG8O4czfz1Ffmpbf2k4QIXT7b69znlV7QymF7YMhJ3pmCpYiLMP4_EEGWFxv2m_7mKLk8R_9BhBal0Uv5dMDniftvEm7phbPMBPBrqMeksW27sz0FY3N3qmNHOP2D894xwPW4vwGmVYHAh110d_ErUqCOkC5Th4Kr9Mm4Gu1sX6D4Zk5R1iCXsKsRqswALo9Jw2zJ7ldP_x7p9MbHIz5WRdsMe73lKR7EknSrRu5-Fu1-p2RigxwAYYTUWGOPlT3gIwy6sJaB8jEiIbBLZiIBQEsv-gOH_9uMpKeWjR2HBcCCn0eAExOEQQ15VJtaFGoWHIOCzx-BMJulg0fJZQb6ANC0fGh29NdBpo2d_YbSvelY6SOkl-o0i3aUaqhZDYYzQu3V7nUfBsaQXOBQ42R4l94auHKNZ7ta-2CZyVFsWP6PMa_TlzObAZIXReCY5XvoBNKN3rH7ahJH6_uPJMTZsxXcGVg0OTmMp2ZJRLthhPihr73RIL7tj-UI36XJZ7HQGWPXLaAxTTzF4YBmg1iuN4QYu_zcXbwpIqIj6H57XRzHrJkh7rDvF4PQ1dO7HoQIlGyNXgNbHZEvCXNilb3ou-Qi_wsXwTZFKTSO1SZoti-In9ty_=w1232-h822-no?authuser=0'
+                        >
+                            <img src='https://lh3.googleusercontent.com/NqrD1WNqDlveArT42cDo25xE1Csgh4M46v8y68ZJDf9MCmGPQJ0UcctWKknw027Z9Ow9kdZylH4fdSKYJPONU63f6hSLTW6pgulaDPeG8O4czfz1Ffmpbf2k4QIXT7b69znlV7QymF7YMhJ3pmCpYiLMP4_EEGWFxv2m_7mKLk8R_9BhBal0Uv5dMDniftvEm7phbPMBPBrqMeksW27sz0FY3N3qmNHOP2D894xwPW4vwGmVYHAh110d_ErUqCOkC5Th4Kr9Mm4Gu1sX6D4Zk5R1iCXsKsRqswALo9Jw2zJ7ldP_x7p9MbHIz5WRdsMe73lKR7EknSrRu5-Fu1-p2RigxwAYYTUWGOPlT3gIwy6sJaB8jEiIbBLZiIBQEsv-gOH_9uMpKeWjR2HBcCCn0eAExOEQQ15VJtaFGoWHIOCzx-BMJulg0fJZQb6ANC0fGh29NdBpo2d_YbSvelY6SOkl-o0i3aUaqhZDYYzQu3V7nUfBsaQXOBQ42R4l94auHKNZ7ta-2CZyVFsWP6PMa_TlzObAZIXReCY5XvoBNKN3rH7ahJH6_uPJMTZsxXcGVg0OTmMp2ZJRLthhPihr73RIL7tj-UI36XJZ7HQGWPXLaAxTTzF4YBmg1iuN4QYu_zcXbwpIqIj6H57XRzHrJkh7rDvF4PQ1dO7HoQIlGyNXgNbHZEvCXNilb3ou-Qi_wsXwTZFKTSO1SZoti-In9ty_=w1232-h822-no?authuser=0'
+                            alt='Dublin'>
+                        </a>
+                    </div>
+
+                    <div>
+                        <button class='btn btn-primary btn-block' id='alertbutton' style='margin:20px;'>Click Me!</button>
+                    </div>
+                    <div>
+                        <div class="alert alert-success" id='alert' style='margin:20px;'>
+                          <strong>Hello!</strong> Click the button to make me go away or bring me back.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='footer'>
+            <h3 style='font-weight:lighter'>Contact Me!</h3>
+            <a target='_blank' href='https://www.linkedin.com/in/harvey-gleeson/' style="font-size:24px"
+            class="fa">&#xf08c;</a>
+            <a target='_blank' href='https://www.instagram.com/harveygleeson/'
+            style="font-size:24px" class="fa">&#xf16d;</a>
+            <a href="mailto:harveygleeson@gmail.com"
+            style="font-size:24px" class="fa">&#xf0e0;</a>
+        </div>
+
+    </body>
+</html>
